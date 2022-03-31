@@ -1,6 +1,6 @@
 <?php
 
-class product 
+class produto 
 {
     public $descricao;
     public $estoque;
@@ -48,7 +48,7 @@ class product
 
 }
 
-$moto = new product("Motos", "Ilimitado", 1700000, "honda");
+$moto = new produto("Motos", "Ilimitado", 1700000, "honda");
 
 $moto->setDescricao = "Motos";
 $moto->setEstoque = "Ilimitado";

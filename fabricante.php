@@ -36,12 +36,12 @@ class fabricante {
     }
 }
 
-$fabricante = new fabricante ("Honda, Minato, tokio, japão", 04337168000148);
+$fabricante = new fabricante("Honda", "japao", 101010);
 
-$fabricante->Nome = "Honda";
-$fabricante->Endereco = "Minato, tokio, japão";
-$fabricante->Documento = 04337168000148;
+$fabricante->nome = "Honda";
+$fabricante->endereco = "japao";
+$fabricante->documento = 101010;
 
-echo "A". $fabricante->Nome. " é uma das maiores criadoras de moto do mundo, tendo a sede em". $fabricante->Endereco. "<br>"
-echo " com o CNPJ de". $fabricante->Documento.;
+echo "A". $fabricante->nome. " é uma das maiores criadoras de moto do mundo, tendo a sede em". $fabricante->endereco. "<br>";
+echo " com o CNPJ de". $fabricante->documento;
 
